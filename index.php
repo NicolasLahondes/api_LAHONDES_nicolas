@@ -34,7 +34,9 @@ if (!empty($_GET['action'])) {
         case "addBrand":
             include "controllers/addBrand.php";
             break;
-    
+        case "catController":
+            include "controllers/catController.php";
+            break;
     }
 }
 
