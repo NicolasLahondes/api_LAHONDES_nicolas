@@ -1,0 +1,67 @@
+Everything was tested using GET and POST method via Postman.
+All methods parameters were filled with form-data. 
+
+LIST :
+
+To LIST all cars follow this link:
+
+( http://localhost/api_LAHONDES_nicolas/index.php?action=list )
+
+no parameters awaited: 
+
+
+ADD :
+
+To ADD a new car inside the database use the following link :
+
+( http://localhost/api_LAHONDES_nicolas/index.php?action=add )
+
+awaited parameters are: 
+        - 'seats' 
+        - 'licencePlate'
+        - 'serialNumber'
+        - 'color'
+        - 'brand_id_brand'
+        - 'model_id_model'
+
+
+MODIFY :
+
+To MODIFY a car inside the database use the following link :
+
+( http://localhost/api_LAHONDES_nicolas/index.php?action=modify )
+
+awaited parameters are: 
+        - 'seats' 
+        - 'licencePlate'
+        - 'serialNumber'
+        - 'color'
+        - 'brand_id_brand'
+        - 'model_id_model'
+        - 'id_car'
+
+
+DELETE :
+
+To DELETE a car inside the database use the following link :
+
+( http://localhost/api_LAHONDES_nicolas/index.php?action=delete )
+
+awaited parameters are:
+        - 'id_car'
+
+
+
+
+================================================================================================================================
+
+
+ADDED ALL BRAND :
+
+To ADD ALL BRAND inside the database use the following link :
+
+( http://localhost/api_LAHONDES_nicolas/index.php?action=addBrand )
+
+awaited parameters are:
+        - 'addAll' (Must be == 1)
+
